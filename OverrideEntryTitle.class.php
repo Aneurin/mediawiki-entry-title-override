@@ -14,7 +14,7 @@ class OverrideEntryTitle {
     public static function parseEntryTitle($text, $attributes, $parser) {
         global $wgOut;
         $parser->disableCache(); // EPIC hack. Need to instead cache/restore this value
-        $wgOut->mPagetitle = $text;
+        $wgOut->setPageTitle($text);
         return '';
     }
 
