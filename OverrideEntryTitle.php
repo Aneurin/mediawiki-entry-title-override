@@ -19,7 +19,7 @@ $wgExtensionCredits['parserhook']['OverrideEntryTitle'] = array(
 	'svn-date' => '$LastChangedDate: 2008-07-16 23:44:00 +0100 (Wed, 16 July 2008) $',
 	'svn-revision' => '$LastChangedRevision: $',
 	'author'         => array( 'Ben Ward' ),
-	'description'    => 'Allows you to override the title of a wiki entry by using an <entry-title> element in the entry.',
+	'description'    => 'Allows you to override the title of a wiki entry by using an &lt;entry-title&gt; element in the entry.',
 	'descriptionmsg' => 'overrideentrytitle-desc',
 	'url'            => 'http://www.mediawiki.org/wiki/Extension:OverrideEntryTitle',
 );

@@ -16,7 +16,7 @@
 $messages = array();
 
 $messages['en'] = array(
-	'overrideentrytitle-desc' => 'Allows you to override the title of a wiki entry by using an <entry-title> element in the entry.'
+	'overrideentrytitle-desc' => 'Allows you to override the title of a wiki entry by using an &lt;entry-title&gt; element in the entry.'
 );
 
 ?>
